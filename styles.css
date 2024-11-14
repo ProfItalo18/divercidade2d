@@ -1,0 +1,72 @@
+:root {
+    --cor-principal: #FFCC00; /* Amarelo */
+    --cor-secundaria: #00BFFF; /* Azul */
+    --cor-terciaria: #FF4500; /* Laranja */
+    --cor-fundo: #F5F5F5; /* Cinza claro */
+    --cor-texto: #333; /* Texto escuro */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.5;
+    margin: 0;
+}
+
+header {
+    background-color: var(--cor-principal);
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    width: 50%;
+    height: auto;
+    background: size 50px;
+}
+
+img{
+    width: 25%;
+    margin: auto;
+    display: block;
+}
+
+nav {
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-terciaria);
+    color: white;
+}
